@@ -1,0 +1,32 @@
+/* Sticky footer */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Card hover effect */
+.animal-card {
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animal-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.animal-card img {
+    height: 300px;
+    object-fit: contain;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+}
